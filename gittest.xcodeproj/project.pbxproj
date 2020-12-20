@@ -13,6 +13,7 @@
 		ABA5E4AA2DF9FA905FA1C08D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E86DA991AFE86FFBBD04 /* ContentView.swift */; };
 		ABA5E6B0BE99A152C8438D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E86DA991AFE86FFBBD04 /* ContentView.swift */; };
 		ABA5E7D4A752DFFF82B3487C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5EB9710FA96359E172BE2 /* Tests_iOS.swift */; };
+		ABA5ED2B8CD3CEE7313B4567 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5EA14423400BFCDF905A7 /* SecondView.swift */; };
 		ABA5EEC661A5F821CCA74F36 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E7D8A6B4720A776FF64E /* Tests_macOS.swift */; };
 		ABA5EF69E41FF1282615DA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA5EAC6B460D76F03609F75 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		ABA5E7D8A6B4720A776FF64E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		ABA5E7E7A7BE7773C41D05C1 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA5E86DA991AFE86FFBBD04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABA5EA14423400BFCDF905A7 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		ABA5EAC6B460D76F03609F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA5EAEC740C2B18A37AE7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		ABA5EB2B5DD4DFD4F88230CD /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				ABA5EAC6B460D76F03609F75 /* Assets.xcassets */,
 				ABA5E468DD932D9FF588E28D /* gittestApp.swift */,
 				ABA5E86DA991AFE86FFBBD04 /* ContentView.swift */,
+				ABA5EA14423400BFCDF905A7 /* SecondView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				ABA5E0D448E132AEF91E8B3D /* gittestApp.swift in Sources */,
 				ABA5E6B0BE99A152C8438D02 /* ContentView.swift in Sources */,
+				ABA5ED2B8CD3CEE7313B4567 /* SecondView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
